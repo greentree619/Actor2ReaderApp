@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA389E972994EE0D0015162B /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA389E962994EE0D0015162B /* Raleway-VariableFont_wght.ttf */; };
 		BA77A64828D06ADE00502AEB /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64728D06ADE00502AEB /* PlayerView.swift */; };
 		BA77A64A28D0A56200502AEB /* VideoCompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64928D0A56200502AEB /* VideoCompositionViewController.swift */; };
 		BA77A64C28D1B01E00502AEB /* AvailableAudioInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64B28D1B01E00502AEB /* AvailableAudioInputsViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA389E962994EE0D0015162B /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		BA73CDEF28D4787300483EC4 /* VIdeoAudioOverLay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VIdeoAudioOverLay.entitlements; sourceTree = "<group>"; };
 		BA77A64728D06ADE00502AEB /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		BA77A64928D0A56200502AEB /* VideoCompositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompositionViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA389E932994ECE10015162B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA389E962994EE0D0015162B /* Raleway-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		BAC687B628C72CFC00AD7036 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		BAC687C128C72CFC00AD7036 /* VIdeoAudioOverLay */ = {
 			isa = PBXGroup;
 			children = (
+				BA389E932994ECE10015162B /* Fonts */,
 				BA73CDEF28D4787300483EC4 /* VIdeoAudioOverLay.entitlements */,
 				BAC687C228C72CFC00AD7036 /* AppDelegate.swift */,
 				BAC687C428C72CFC00AD7036 /* SceneDelegate.swift */,
@@ -320,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC687CF28C72CFF00AD7036 /* LaunchScreen.storyboard in Resources */,
+				BA389E972994EE0D0015162B /* Raleway-VariableFont_wght.ttf in Resources */,
 				BAC687CC28C72CFF00AD7036 /* Assets.xcassets in Resources */,
 				BAC687CA28C72CFC00AD7036 /* Main.storyboard in Resources */,
 			);
