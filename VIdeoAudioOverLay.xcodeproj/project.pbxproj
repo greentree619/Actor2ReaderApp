@@ -11,6 +11,7 @@
 		BA77A64828D06ADE00502AEB /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64728D06ADE00502AEB /* PlayerView.swift */; };
 		BA77A64A28D0A56200502AEB /* VideoCompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64928D0A56200502AEB /* VideoCompositionViewController.swift */; };
 		BA77A64C28D1B01E00502AEB /* AvailableAudioInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A64B28D1B01E00502AEB /* AvailableAudioInputsViewController.swift */; };
+		BA807D71299509EB00730FE7 /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA807D70299509EB00730FE7 /* ConferenceViewController.swift */; };
 		BAC687C328C72CFC00AD7036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC687C228C72CFC00AD7036 /* AppDelegate.swift */; };
 		BAC687C528C72CFC00AD7036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC687C428C72CFC00AD7036 /* SceneDelegate.swift */; };
 		BAC687C728C72CFC00AD7036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC687C628C72CFC00AD7036 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		BA77A64728D06ADE00502AEB /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		BA77A64928D0A56200502AEB /* VideoCompositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompositionViewController.swift; sourceTree = "<group>"; };
 		BA77A64B28D1B01E00502AEB /* AvailableAudioInputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableAudioInputsViewController.swift; sourceTree = "<group>"; };
+		BA807D70299509EB00730FE7 /* ConferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
 		BAC687BF28C72CFC00AD7036 /* VIdeoAudioOverLay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIdeoAudioOverLay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC687C228C72CFC00AD7036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC687C428C72CFC00AD7036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				BAD1D47E28C77DD8007B52F0 /* VideoRecordViewController.swift */,
 				BA77A64928D0A56200502AEB /* VideoCompositionViewController.swift */,
 				BA77A64B28D1B01E00502AEB /* AvailableAudioInputsViewController.swift */,
+				BA807D70299509EB00730FE7 /* ConferenceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				BAD1D47D28C77A68007B52F0 /* VideoPicker.swift in Sources */,
 				BAC687C728C72CFC00AD7036 /* ViewController.swift in Sources */,
 				BADA75C828D3524C007C7508 /* VideoHelper.swift in Sources */,
+				BA807D71299509EB00730FE7 /* ConferenceViewController.swift in Sources */,
 				BAC687C328C72CFC00AD7036 /* AppDelegate.swift in Sources */,
 				BA77A64C28D1B01E00502AEB /* AvailableAudioInputsViewController.swift in Sources */,
 				BAD1D48228C7935F007B52F0 /* CameraPreviewView.swift in Sources */,
