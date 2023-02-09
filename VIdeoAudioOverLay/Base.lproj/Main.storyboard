@@ -295,17 +295,20 @@
                                     <constraint firstAttribute="trailing" secondItem="p2L-ey-qyV" secondAttribute="trailing" constant="19" id="gBs-8E-GPh"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1kC-vH-Kdz">
-                                <rect key="frame" x="20" y="689" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1kC-vH-Kdz" userLabel="View Script">
+                                <rect key="frame" x="6" y="777" width="198" height="58"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="1wQ-KW-nqK"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="dVk-Dv-VHZ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dsW-9v-x9P">
-                                <rect key="frame" x="154" y="713" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsW-9v-x9P" userLabel="Start Timer">
+                                <rect key="frame" x="210" y="777" width="198" height="58"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="XgJ-zW-0uv"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="plS-F5-juY"/>
@@ -313,6 +316,7 @@
                         <constraints>
                             <constraint firstItem="yBT-K1-Vb3" firstAttribute="trailing" secondItem="plS-F5-juY" secondAttribute="trailing" id="1wM-9H-Yb7"/>
                             <constraint firstItem="mFw-gV-Apr" firstAttribute="leading" secondItem="plS-F5-juY" secondAttribute="leading" id="2H2-dm-mFU"/>
+                            <constraint firstItem="plS-F5-juY" firstAttribute="bottom" secondItem="1kC-vH-Kdz" secondAttribute="bottom" constant="27" id="9sM-zF-5rC"/>
                             <constraint firstItem="Cnd-Ew-qQ0" firstAttribute="leading" secondItem="5VL-al-jms" secondAttribute="leading" id="CLn-nm-PVM"/>
                             <constraint firstItem="xBc-AN-IEc" firstAttribute="centerY" secondItem="plS-F5-juY" secondAttribute="centerY" id="HWn-1y-tYA"/>
                             <constraint firstItem="fHr-mu-7Be" firstAttribute="centerY" secondItem="plS-F5-juY" secondAttribute="centerY" id="HfC-c4-K5Y"/>
@@ -320,6 +324,7 @@
                             <constraint firstItem="plS-F5-juY" firstAttribute="trailing" secondItem="10l-Hb-SO3" secondAttribute="trailing" id="KcK-We-4Qg"/>
                             <constraint firstItem="fHr-mu-7Be" firstAttribute="centerX" secondItem="plS-F5-juY" secondAttribute="centerX" id="LyJ-YO-aQU"/>
                             <constraint firstItem="plS-F5-juY" firstAttribute="bottom" secondItem="mFw-gV-Apr" secondAttribute="bottom" id="Mgu-TK-Hff"/>
+                            <constraint firstItem="plS-F5-juY" firstAttribute="bottom" secondItem="dsW-9v-x9P" secondAttribute="bottom" constant="27" id="Nm5-ff-ifq"/>
                             <constraint firstAttribute="trailing" secondItem="Cnd-Ew-qQ0" secondAttribute="trailing" id="PS0-aI-8qd"/>
                             <constraint firstItem="Cnd-Ew-qQ0" firstAttribute="top" secondItem="5VL-al-jms" secondAttribute="top" id="PWb-2R-KeU"/>
                             <constraint firstItem="Lx3-D4-TbD" firstAttribute="top" secondItem="plS-F5-juY" secondAttribute="top" constant="10" id="SAj-Gd-fbR"/>
@@ -331,10 +336,14 @@
                             <constraint firstItem="plS-F5-juY" firstAttribute="bottom" secondItem="1kC-vH-Kdz" secondAttribute="bottom" constant="27" id="f0N-JD-xy3"/>
                             <constraint firstAttribute="bottom" secondItem="Cnd-Ew-qQ0" secondAttribute="bottom" id="gC0-lm-5yf"/>
                             <constraint firstItem="10l-Hb-SO3" firstAttribute="leading" secondItem="plS-F5-juY" secondAttribute="leading" id="gee-xU-6V0"/>
+                            <constraint firstItem="dsW-9v-x9P" firstAttribute="width" secondItem="1kC-vH-Kdz" secondAttribute="width" id="hm4-CG-2Kw"/>
                             <constraint firstItem="10l-Hb-SO3" firstAttribute="top" secondItem="plS-F5-juY" secondAttribute="top" id="i9W-tp-cZ1"/>
+                            <constraint firstItem="1kC-vH-Kdz" firstAttribute="leading" secondItem="plS-F5-juY" secondAttribute="leading" constant="6" id="mZj-hb-7hM"/>
+                            <constraint firstItem="dsW-9v-x9P" firstAttribute="leading" secondItem="1kC-vH-Kdz" secondAttribute="trailing" constant="6" id="nnt-NI-eYv"/>
                             <constraint firstItem="fHr-mu-7Be" firstAttribute="centerY" secondItem="plS-F5-juY" secondAttribute="centerY" id="pOR-yo-5Bc"/>
                             <constraint firstItem="plS-F5-juY" firstAttribute="trailing" secondItem="Lx3-D4-TbD" secondAttribute="trailing" constant="10" id="pSC-SI-VTA"/>
                             <constraint firstItem="plS-F5-juY" firstAttribute="trailing" secondItem="mFw-gV-Apr" secondAttribute="trailing" id="vpv-AM-kYm"/>
+                            <constraint firstItem="plS-F5-juY" firstAttribute="trailing" secondItem="dsW-9v-x9P" secondAttribute="trailing" constant="6" id="vqs-xw-sd3"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
